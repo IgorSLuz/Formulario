@@ -37,7 +37,7 @@ function cadastrar() {
     const escolaridade = document.getElementById("escolaridade").value
     const sexoSelecionado = document.querySelector("input[name='sexo']:checked")
     console.log(sexoSelecionado)
-    const turnSelecionado = document.querySelectorAll("input[name= 'turno']:checked")
+    const turnSelecionado = document.querySelectorAll("input[name='turno']:checked")
     if (nome === "" || sobrenome === "" || email === "" || idade === "" || escolaridade === "") {
         alert("Preencha todos os campos")
         return
