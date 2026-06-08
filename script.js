@@ -29,6 +29,7 @@ form.addEventListener("submit", event => {
 })
 
 function cadastrar() {
+    //coment
     const nome = document.getElementById("nome-aluno").value
     const sobrenome = document.getElementById("sobrenome-aluno").value
     const email = document.getElementById("email-aluno").value
