@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="POST" id="myform">
+            <h2>Cadastro Aluno Olimpíada</h2>
+            <input type="text" name="nome" placeholder="Insira o nome" id="nome-aluno">
+            <input type="text" name="sobrenome" placeholder="Insira o sobrenome" id="sobrenome-aluno">
+            <input type="email" name="email" placeholder="Insira o email" id="email-aluno">
+            <input type="number" name="idade" placeholder="Insira a idade" id="idade-aluno">
+            <label for="escolaridade">Escolaridade:</label>
+            <select name="escolaridade" id="escolaridade">
+                <option value=""">Escolha uma opção</option>
+                <option value="1° turno">1° turno</option>
+                <option value="2° turno">2° turno</option>
+                <option value="3° turno">3° turno</option>
+                
+            </select>
+            <label for="Sexo">Sexo:</label>
+            <label >
+               <input type="radio" name="sexo" id="sexo-masculino">
+                Masculino
+               </label>
+               <label >
+                <input type="radio" name="Sexo" id="sexo-feminino">
+                Feminino
+               </label>
+               <div class="turno">
+                <label for="turno">Turno</label>
+                <Label>
+                    <input type="checkbox" name="turno" value="manhã">
+                    Manhã
+                    </label>
+                    <input type="checkbox" name="turno" value="tarde">
+                    Tarde
+                    </label>
+                    <input type="checkbox" name="turno" value="noite">
+                    Noite
+                    </label>
+                </div>
+                        <button type="submit" Value="Cadastrar">Cadastrar</button>
+                   
+
+               
+
+        </form>
+
+    </div>
+    <script src="script.js"></script> 
+</body>
+
+</html>
